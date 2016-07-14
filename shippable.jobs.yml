@@ -19,5 +19,8 @@ jobs:
       - PUT: dv-opts
       - PUT: dv-params
       
-      
+  - name: dv-man2
+    type: manifest
+    steps:
+      - GET: dv-image   
  
