@@ -41,6 +41,7 @@ resources:
     type: version
     initialVersion:
       versionName: "0.0.1-beta"
+      
 
  
   
