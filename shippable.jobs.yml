@@ -13,7 +13,7 @@ jobs:
     type: manifest
     steps:
       - GET: dv-image
-      
+      - GET: trigger-dv-man
       
       
       
