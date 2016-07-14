@@ -37,7 +37,10 @@ resources:
       params:
         MONGO_API_URL: "localhost:28017"
 
-  
+  - name: version-resource
+    type: version
+    initialVersion:
+      versionName: "0.0.1-beta"
 
  
   
