@@ -14,7 +14,8 @@ jobs:
     steps:
       - GET: dv-image
       - GET: trigger-dv-man
-      
+      - PUT: dv-opts
+      - PUT: dv-params
       
       
  
