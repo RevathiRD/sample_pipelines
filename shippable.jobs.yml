@@ -24,3 +24,10 @@ jobs:
     steps:
       - GET: dv-image   
  
+  - name: release-one
+    type: release
+    options:
+      action: minor
+    steps:
+      - GET: version-resource
+      - GET: dv-man
