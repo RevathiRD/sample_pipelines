@@ -7,7 +7,22 @@ resources:
       isPull: false
     initialVersion:
       versionName: latest
-
+  - name: dv-image1
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      isPull: false
+    initialVersion:
+      versionName: latest
+  - name: dv-image2
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      isPull: false
+    initialVersion:
+      versionName: latest
   - name: dv-opts
     type: dockerOptions
     pointer:
