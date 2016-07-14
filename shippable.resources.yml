@@ -34,9 +34,3 @@ resources:
       count: 1
 
 
-  - name: version-resource
-    type: version
-    initialVersion:
-      versionName: "0.0.1-beta"
-
-
