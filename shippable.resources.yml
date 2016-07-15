@@ -54,8 +54,20 @@ resources:
     seed:
       versionName: latest    
   
-
-  
+  - name: image1
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+    seed:
+      versionName: latest
+  - name: image2
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+    seed:
+      versionName: latest
   - name: box-scaler
     type: replicas
     pointer:
