@@ -72,5 +72,12 @@ resources:
     type: replicas
     pointer:
       count: 1
-
+  - name: dv-image-xyz
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+     # isPull: false
+    seed:
+      versionName: latest
 
