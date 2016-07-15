@@ -36,7 +36,14 @@ resources:
       params:
         MONGO_API_URL: "localhost:28017"
 
-      
+  - name: dv-image-testing_for_a_long_name
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+     # isPull: false
+    seed:
+      versionName: latest    
 
  
   
