@@ -1,5 +1,5 @@
 resources:
-  - name: dv-image
+  - name: image-dv
     type: image
     integration: docker integrtion
     pointer:
@@ -7,7 +7,7 @@ resources:
      # isPull: false
     seed:
       versionName: latest
-  - name: dv-image1
+  - name: image1-dv
     type: image
     integration: docker integrtion
     pointer:
@@ -15,14 +15,14 @@ resources:
       #isPull: false
     seed:
       versionName: latest
-  - name: dv-image2
+  - name: image2-dv
     type: image
     integration: docker integrtion
     pointer:
       sourceName: "revathird/sample_node"
     seed:
       versionName: latest
-  - name: dv-opts
+  - name: opts-dv
     type: dockerOptions
     version:
       memory: 64
@@ -30,13 +30,13 @@ resources:
       portMappings:
         - "80:80"
 
-  - name: dv-params
+  - name: params-dv
     type: params
     version:
       params:
         MONGO_API_URL: "localhost:28017"
 
-  - name: dv-image-testing_for_a_long_name
+  - name: dv-image-testing
     type: image
     integration: docker integrtion
     pointer:
@@ -45,7 +45,7 @@ resources:
     seed:
       versionName: latest    
 
-  - name: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+  - name: dv-image-testing_for
     type: image
     integration: docker integrtion
     pointer:
@@ -54,21 +54,21 @@ resources:
     seed:
       versionName: latest    
   
-  - name: image1
+  - name: image0
     type: image
     integration: docker integrtion
     pointer:
       sourceName: "revathird/sample_node"
     seed:
       versionName: latest
-  - name: image2
+  - name: image00
     type: image
     integration: docker integrtion
     pointer:
       sourceName: "revathird/sample_node"
     seed:
       versionName: latest
-  - name: box-scaler
+  - name: scaler-box
     type: replicas
     pointer:
       count: 1
