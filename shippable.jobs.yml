@@ -2,14 +2,14 @@ jobs:
   - name: dv-man
     type: manifest
     steps:
-      - GET: dv-image
-      - GET: dv-opts
-      - GET: dv-params
+      - GET: image-dv
+      - GET: opts-dv
+      - GET: params-dv
         applyTo:
-          - dv-image
+          - image
       - GET: trigger-dv-man
-      - GET: dv-image-testing_for_a_long_name
-      - GET: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      - GET: dv-image-testing
+      - GET: dv-image-testing_for
       
       
   - name: dv-man1
