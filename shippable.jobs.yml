@@ -23,6 +23,8 @@ jobs:
       - GET: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
       - PUT: dv-opts
       - PUT: dv-params
+      - PUT: image1
+      - PUT: image2
      
   - name: dv-man2
     type: manifest
