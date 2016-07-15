@@ -51,7 +51,7 @@ jobs:
   - name: s2
     type: manifest
     steps:
-      #- GET: dv-image  
+      - GET: dv-image-xyz 
       - GET: image1
       
       
