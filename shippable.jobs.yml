@@ -32,4 +32,9 @@ jobs:
       #- GET: dv-image  
       - GET: dv-man
  
+  - name: s1
+    type: manifest
+    steps:
+      #- GET: dv-image  
+      - GET: image1
  
