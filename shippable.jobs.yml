@@ -31,7 +31,8 @@ jobs:
     steps:
       #- GET: dv-image  
       - GET: dv-man
- 
+      - GET: dv-image-testing_for_a_long_name
+      - GET: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
   - name: s1
     type: manifest
     steps:
