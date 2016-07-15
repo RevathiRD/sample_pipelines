@@ -8,6 +8,9 @@ jobs:
         applyTo:
           - dv-image
       - GET: trigger-dv-man
+      - GET: dv-image-testing_for_a_long_name
+      - GET: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      
       
   - name: dv-man1
     type: manifest
