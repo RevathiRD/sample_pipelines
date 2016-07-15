@@ -37,4 +37,5 @@ jobs:
     steps:
       #- GET: dv-image  
       - GET: image1
- 
+      - GET: dv-opts
+      - GET: dv-params
