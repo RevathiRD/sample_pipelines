@@ -4,28 +4,27 @@ resources:
     integration: docker integrtion
     pointer:
       sourceName: "revathird/sample_node"
-      isPull: false
-    initialVersion:
+     # isPull: false
+    seed:
       versionName: latest
   - name: dv-image1
     type: image
     integration: docker integrtion
     pointer:
       sourceName: "revathird/sample_node"
-      isPull: false
-    initialVersion:
+      #isPull: false
+    seed:
       versionName: latest
   - name: dv-image2
     type: image
     integration: docker integrtion
     pointer:
       sourceName: "revathird/sample_node"
-      isPull: false
-    initialVersion:
+    seed:
       versionName: latest
   - name: dv-opts
     type: dockerOptions
-    pointer:
+    version:
       memory: 64
       cpuShares: 256
       portMappings:
@@ -33,14 +32,10 @@ resources:
 
   - name: dv-params
     type: params
-    pointer:
+    version:
       params:
         MONGO_API_URL: "localhost:28017"
 
-  - name: version-resource
-    type: version
-    initialVersion:
-      versionName: "0.0.1-beta"
       
 
  
