@@ -18,10 +18,11 @@ jobs:
       - GET: dv-image2
       - PUT: dv-opts
       - PUT: dv-params
-      
+     
   - name: dv-man2
     type: manifest
     steps:
-      - GET: dv-image   
+      #- GET: dv-image  
+      - GET: dv-man
  
  
