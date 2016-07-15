@@ -45,7 +45,14 @@ resources:
     seed:
       versionName: latest    
 
- 
+  - name: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+     # isPull: false
+    seed:
+      versionName: latest    
   
 
   
