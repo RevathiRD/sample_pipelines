@@ -48,3 +48,9 @@ jobs:
       - GET: image1
       - GET: dv-opts
       - GET: dv-params
+  - name: s2
+    type: manifest
+    steps:
+      #- GET: dv-image  
+      - GET: image1
+      
