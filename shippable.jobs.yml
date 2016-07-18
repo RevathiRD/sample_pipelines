@@ -43,6 +43,7 @@ jobs:
       - IN: dv-man2
       - IN: dv-image-testing_for_a_long_name
       - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      - IN: dv-image
       - IN: s1
       - TASK: managed
   - name: s1
