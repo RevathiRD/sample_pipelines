@@ -66,4 +66,10 @@ jobs:
       - IN: image1
       - TASK: managed
       
-      
+  - name: s3
+    type: manifest
+    steps:
+  
+      - IN: image123
+      - TASK: managed
+      - OUT: dv-image-xyzw
