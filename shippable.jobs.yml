@@ -44,6 +44,7 @@ jobs:
       - IN: dv-image-testing_for_a_long_name
       - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
       - IN: dv-image
+      - IN: s2
       - IN: s1
       - TASK: managed
       - OUT: dv-image-xyz
