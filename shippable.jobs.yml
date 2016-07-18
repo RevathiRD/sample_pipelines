@@ -2,57 +2,61 @@ jobs:
   - name: dv-man
     type: manifest
     steps:
-      - GET: dv-image
-      - GET: dv-opts
-      - GET: dv-params
+      - IN: dv-image
+      - IN: dv-opts
+      - IN: dv-params
         applyTo:
           - dv-image
-      - GET: trigger-dv-man
-      - GET: dv-image-testing_for_a_long_name
-      - GET: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      - IN: trigger-dv-man
+      - IN: dv-image-testing_for_a_long_name
+      - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
       
       
   - name: dv-man1
     type: manifest
     steps:
-      - GET: dv-image
-      - GET: trigger-dv-man
-      - GET: dv-image1
-      - GET: dv-image2
-      - GET: dv-image-testing_for_a_long_name
-      - GET: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
-      - PUT: dv-opts
-      - PUT: dv-params
-      - PUT: image1
-      - PUT: image2
+      - IN: dv-image
+      - IN: trigger-dv-man
+      - IN: dv-image1
+      - IN: dv-image2
+      - IN: dv-image-testing_for_a_long_name
+      - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      - TASK: managed
+      - OUT: dv-opts
+      - OUT: dv-params
+      - OUT: image1
+      - OUT: image2
      
   - name: dv-man2
     type: manifest
     steps:
       #- GET: dv-image  
-      - GET: dv-man
-      - GET: dv-image-testing_for_a_long_name
-      - GET: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      - IN: dv-man
+      - IN: dv-image-testing_for_a_long_name
+      - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      - TASK: managed
   - name: dv-man3
     type: manifest
     steps:
       #- GET: dv-image  
-      - GET: dv-man2
-      - GET: dv-image-testing_for_a_long_name
-      - GET: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
-      - GET: s1
+      - IN: dv-man2
+      - IN: dv-image-testing_for_a_long_name
+      - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      - IN: s1
+      - TASK: managed
   - name: s1
     type: manifest
     steps:
       #- GET: dv-image  
-      - GET: image1
-      - GET: dv-opts
-      - GET: dv-params
+      - IN: image1
+      - IN: dv-opts
+      - IN: dv-params
+      - TASK: managed
   - name: s2
     type: manifest
     steps:
-      - GET: dv-image-xyz 
-      - GET: image1
-      
+      - IN: dv-image-xyz 
+      - IN: image1
+      - TASK: managed
       
       
