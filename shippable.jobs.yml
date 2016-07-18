@@ -46,6 +46,7 @@ jobs:
       - IN: dv-image
       - IN: s1
       - TASK: managed
+      - OUT: dv-image-xyz
   - name: s1
     type: manifest
     steps:
