@@ -35,6 +35,7 @@ jobs:
       - IN: dv-man
       - IN: dv-image-testing_for_a_long_name
       - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      - IN: s2
       - TASK: managed
   - name: dv-man3
     type: manifest
