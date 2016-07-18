@@ -96,3 +96,11 @@ resources:
       #isPull: false
     seed:
       versionName: latest
+  - name: dv-image-xyzw
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
