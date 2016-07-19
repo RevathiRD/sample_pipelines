@@ -79,14 +79,14 @@ jobs:
       - IN: image1234
       - IN: image12345
       - TASK: managed
-      - OUT: image123456
+      - OUT: image12346
   - name: s5
     type: manifest
     steps:
-      - IN: image1234567
+      - IN: image123467
       - TASK: managed
-      - OUT: image12345678  
-      - OUT: image123456789
+      - OUT: image1234678  
+      - OUT: image12346789
       
       
       
