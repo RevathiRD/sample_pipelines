@@ -5,6 +5,7 @@ jobs:
       - IN: dv-image
       - IN: dv-opts
       - IN: dv-params
+      - IN: s6
         applyTo:
           - dv-image
       - IN: trigger-dv-man
