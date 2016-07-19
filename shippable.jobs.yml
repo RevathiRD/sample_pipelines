@@ -53,6 +53,17 @@ jobs:
       - OUT: dv-image-xyz
       - OUT: dv-image-xy
       - OUT: dv-image-x
+  - name: dv-man4
+    type: manifest
+    steps:
+      #- GET: dv-image  
+      - IN: dv-man2
+     
+      - IN: s1-test-for-the-long-name-12346
+     
+      - TASK: managed
+     
+     
   - name: s1-test-for-the-long-name-12346
     type: manifest
     steps:
