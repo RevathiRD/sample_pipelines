@@ -93,6 +93,6 @@ jobs:
     steps:
       
       - TASK: managed
-      - OUT: image1234
+      - OUT: imagetest
       
   
