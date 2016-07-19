@@ -75,6 +75,17 @@ jobs:
       - IN: dv-image-x   
       - IN: s1-test-for-the-long-name-12346
       - TASK: managed
+  - name: dv-man6
+    type: manifest
+    steps:
+      #- GET: dv-image  
+      
+      
+      - IN: dv-image-testing_for_a_long_name
+      - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+     
+      - IN: s1-test-for-the-long-name-12346
+      - TASK: managed
   - name: s1-test-for-the-long-name-12346
     type: manifest
     steps:
