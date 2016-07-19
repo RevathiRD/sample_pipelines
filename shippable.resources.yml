@@ -1,5 +1,5 @@
 resources:
-  - name: dv-image
+  - name: test-image
     type: image
     integration: docker integrtion
     pointer:
