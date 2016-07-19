@@ -112,3 +112,60 @@ resources:
       #isPull: false
     seed:
       versionName: latest
+  - name: image1234
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
+  - name: image12345
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
+      
+  - name: image12346
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
+  - name: image123467
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
+  - name: image1234678
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
+  - name: image12346789
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
+  - name: image123467890
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
