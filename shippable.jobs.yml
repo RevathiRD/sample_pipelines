@@ -76,7 +76,6 @@ jobs:
   - name: s4
     type: manifest
     steps:
-  
       - IN: image1234
       - IN: image12345
       - TASK: managed
@@ -84,7 +83,6 @@ jobs:
   - name: s5
     type: manifest
     steps:
-  
       - IN: image1234567
       - TASK: managed
       - OUT: image12345678  
