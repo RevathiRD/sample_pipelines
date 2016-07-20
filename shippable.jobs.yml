@@ -135,6 +135,8 @@ jobs:
     type: manifest
     steps:
       - IN: s1-test-for-the-long-name-12346
+      - IN: dv-image-testing_for_a_long_name
+      - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
       - TASK: managed
         
   - name: dv-man-8
