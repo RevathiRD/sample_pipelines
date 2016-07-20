@@ -177,3 +177,11 @@ resources:
       #isPull: false
     seed:
       versionName: latest
+  - name: imagetest-ui
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
