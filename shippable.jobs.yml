@@ -131,5 +131,10 @@ jobs:
       - OUT: imagetest
       
       
-      
+  - name: dv-man-7
+    type: manifest
+    steps:
+      - IN: s1-test-for-the-long-name-12346
+      - TASK: managed
+        
   
