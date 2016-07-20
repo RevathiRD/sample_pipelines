@@ -137,4 +137,8 @@ jobs:
       - IN: s1-test-for-the-long-name-12346
       - TASK: managed
         
-  
+  - name: dv-man-8
+    type: manifest
+    steps:
+      - IN: s1-test-for-the-long-name-12346
+      - TASK: managed
