@@ -3,4 +3,8 @@ jobs:
     type: manifest
     steps:
       - IN: test-image
-     
+  - name: test-man
+    type: manifest
+    steps:
+      - IN: test-image  
+      - IN: test-image-t
