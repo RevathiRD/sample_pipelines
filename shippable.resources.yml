@@ -10,7 +10,7 @@ resources:
  
   - name: test-image-t
     type: image
-    integration: docker integrtion1
+    integration: docker integrtion
     pointer:
       sourceName: "revathird/img"
      # isPull: false
