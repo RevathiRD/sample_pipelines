@@ -6,5 +6,5 @@ jobs:
   - name: test-man1
     type: manifest
     steps:
-      - IN: test-image  
+     # - IN: test-image  
       - IN: test-image-t
