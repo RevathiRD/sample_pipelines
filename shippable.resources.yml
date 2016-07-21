@@ -1,7 +1,7 @@
 resources:
   - name: test-image
     type: image
-    integration: docker integrtion
+    integration: docker integrtion1
     pointer:
       sourceName: "revathird/sample_node"
      # isPull: false
