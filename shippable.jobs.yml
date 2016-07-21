@@ -8,3 +8,8 @@ jobs:
     steps:
      # - IN: test-image  
       - IN: test-image-t
+  - name: test-man2
+    type: manifest
+    steps:
+     # - IN: test-image  
+      - IN: test-image-t
