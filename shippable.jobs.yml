@@ -12,4 +12,4 @@ jobs:
     type: manifest
     steps:
      # - IN: test-image  
-      - IN: test-image-t
+      - IN: test-image-t1
