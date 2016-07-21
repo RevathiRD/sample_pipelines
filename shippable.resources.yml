@@ -8,3 +8,11 @@ resources:
     seed:
       versionName: latest
  
+  - name: test-image-t
+    type: image
+    integration: docker integrtion1
+    pointer:
+      sourceName: "revathird/img"
+     # isPull: false
+    seed:
+      versionName: latest
