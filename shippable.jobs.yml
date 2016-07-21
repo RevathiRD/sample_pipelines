@@ -13,3 +13,4 @@ jobs:
     steps:
      # - IN: test-image  
       - IN: test-image-t1
+      - IN: trigger-dv-man
