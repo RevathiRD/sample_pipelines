@@ -126,7 +126,7 @@ jobs:
   - name: s6
     type: manifest
     steps:
-      
+      - IN: xyz
       - TASK: managed
       - OUT: imagetest
       
