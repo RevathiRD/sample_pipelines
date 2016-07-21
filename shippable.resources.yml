@@ -16,3 +16,11 @@ resources:
      # isPull: false
     seed:
       versionName: latest
+  - name: test-image-t1
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/img"
+     # isPull: false
+    seed:
+      versionName: "test.12.1"
