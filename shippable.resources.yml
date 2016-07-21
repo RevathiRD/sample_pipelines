@@ -173,7 +173,7 @@ resources:
     type: image
     integration: docker integrtion
     pointer:
-      sourceName: "revathird/img"
+      sourceName: "revathird/sample_node"
       #isPull: false
     seed:
       versionName: latest
@@ -181,7 +181,7 @@ resources:
     type: image
     integration: docker integrtion
     pointer:
-      sourceName: "revathird/sample_node"
+      sourceName: "revathird/img"
       #isPull: false
     seed:
       versionName: latest
