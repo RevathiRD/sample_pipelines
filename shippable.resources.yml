@@ -122,7 +122,7 @@ resources:
       versionName: latest
   - name: image12345
     type: image
-    integration: docker integrtion
+    integration: docker integrtion1
     pointer:
       sourceName: "revathird/sample_node"
       #isPull: false
