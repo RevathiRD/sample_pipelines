@@ -1,7 +1,7 @@
 resources:
   - name: dv-image
     type: image
-    integration: docker integrtion1
+    integration: docker integrtion
     pointer:
       sourceName: "revathird/sample_node"
      # isPull: false
