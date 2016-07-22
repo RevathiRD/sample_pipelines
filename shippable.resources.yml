@@ -158,7 +158,7 @@ resources:
       sourceName: "revathird/img"
       #isPull: false
     seed:
-      versionName: tag_not_exist
+      versionName: check_last_versionname
   - name: imager
     type: image
     integration: docker integrtion1
