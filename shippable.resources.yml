@@ -161,14 +161,7 @@ resources:
       #isPull: false
     seed:
       versionName: latest
-  - name: image123467890
-    type: image
-    integration: docker integrtion
-    pointer:
-      sourceName: "revathird/sample_node"
-      #isPull: false
-    seed:
-      versionName: latest
+  
   - name: imagetest
     type: image
     integration: docker integrtion
