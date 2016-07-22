@@ -200,4 +200,4 @@ resources:
       sourceName: "revathird/img"
       #isPull: false
     seed:
-      versionName: latest
+      versionName: tag_not_exist
