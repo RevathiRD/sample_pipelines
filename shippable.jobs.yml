@@ -147,4 +147,8 @@ jobs:
       - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
       - TASK: managed
       
-      
+  - name: invalid_input
+    type: manifest
+    steps:
+      - IN: imagetest-invalid
+      - TASK: managed    
