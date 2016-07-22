@@ -114,6 +114,7 @@ jobs:
     steps:
   
       - IN: image123
+      - IN: dv-inc
       - TASK: managed
       - OUT: dv-image-xyzw
   - name: s4
