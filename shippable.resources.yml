@@ -201,3 +201,12 @@ resources:
       #isPull: false
     seed:
       versionName: tag_not_exist
+  - name: imager
+    type: image
+    integration: docker integrtion1
+    pointer:
+      sourceName: "revathird/sample_node"
+      #isPull: false
+    seed:
+      versionName: latest
+      
