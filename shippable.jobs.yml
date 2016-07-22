@@ -15,7 +15,7 @@ jobs:
   - name: dv
     type: manifest
     steps:
-      - IN: imager
+      - IN: dv-image
       - TASK: managed
   - name: dv-man1
     type: manifest
