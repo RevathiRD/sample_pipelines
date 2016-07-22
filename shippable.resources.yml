@@ -193,7 +193,7 @@ resources:
       #isPull: false
     seed:
       versionName: latest
- -  name: imagetest-invalid
+  - name: imagetest-invalid
     type: image
     integration: docker integrtion
     pointer:
