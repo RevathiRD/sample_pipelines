@@ -193,3 +193,11 @@ resources:
       #isPull: false
     seed:
       versionName: latest
+ - name: imagetest-invalid
+    type: image
+    integration: docker integrtion
+    pointer:
+      sourceName: "revathird/img"
+      #isPull: false
+    seed:
+      versionName: latest
