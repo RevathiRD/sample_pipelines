@@ -27,15 +27,9 @@ jobs:
     steps:
       - IN: dv-image
       - IN: trigger-dv-man
-      - IN: dv-image1
-      - IN: dv-image2
-      - IN: dv-image-testing_for_a_long_name
-      - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
+      
       - TASK: managed
-      - OUT: dv-opts
-      - OUT: dv-params
-      - OUT: image1
-      - OUT: image2
+    
       
      
   - name: dv-man2
