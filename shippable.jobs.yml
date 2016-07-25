@@ -20,7 +20,7 @@ jobs:
   - name: dv-inc
     type: manifest
     steps:
-      - IN: ik
+    
       - IN: dv-image
   - name: dv-man1
     type: manifest
