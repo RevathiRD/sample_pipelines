@@ -163,6 +163,8 @@ resources:
       #isPull: false
     seed:
       versionName: check_last_versionname
+    flags:
+      - imagetest-invalid
   - name: imager
     type: image
     integration: docker integrtion1
