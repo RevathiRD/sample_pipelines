@@ -108,6 +108,8 @@ jobs:
       - IN: dv-opts
       - IN: dv-params
       - TASK: managed
+    flags:
+      - s1-test-for-the-long-name-12346
   - name: s2
     type: manifest
     steps:
