@@ -28,6 +28,7 @@ jobs:
       - IN: dv-man-8
       - IN: dv-man-7
       - TASK: managed
+      - OUT: dv-image2
     flags:
       - dv-test
   - name: dv-inc
