@@ -80,9 +80,6 @@ jobs:
   - name: dv-man5
     type: manifest
     steps:
-      #- GET: dv-image  
-      
-      
       - IN: dv-image-xyz
       - IN: dv-image-xy
       - IN: dv-image-x   
@@ -90,6 +87,7 @@ jobs:
       - TASK: managed
     flags:
       - dv-man5
+  
   - name: dv-man6
     type: manifest
     steps:
