@@ -113,7 +113,6 @@ jobs:
   - name: s2
     type: manifest
     steps:
-  
       - IN: image1
       - TASK: managed
     flags:
