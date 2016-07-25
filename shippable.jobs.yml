@@ -12,6 +12,8 @@ jobs:
       - IN: dv-image-testing_for_a_long_name
       - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
       - TASK: managed
+    flags:
+      - dv-man
   - name: dv
     type: manifest
     steps:
@@ -26,6 +28,8 @@ jobs:
       - IN: dv-man-8
       - IN: dv-man-7
       - TASK: managed
+    flags:
+      - dv-test
   - name: dv-inc
     type: manifest
     steps:
@@ -37,9 +41,9 @@ jobs:
     steps:
       - IN: dv-image
       - IN: trigger-dv-man
-      
       - TASK: managed
-    
+    flags:
+      - dv-man1
       
      
   - name: dv-man2
@@ -52,6 +56,8 @@ jobs:
       - IN: s2
      # - IN: s2
       - TASK: managed
+    flags:
+      - dv-man2
   - name: dv-man3
     type: manifest
     steps:
@@ -67,6 +73,8 @@ jobs:
       - OUT: dv-image-xyz
       - OUT: dv-image-xy
       - OUT: dv-image-x
+    flags:
+      - dv-man3
   - name: dv-man4
     type: manifest
     steps:
@@ -76,6 +84,8 @@ jobs:
       - IN: s1-test-for-the-long-name-12346
      
       - TASK: managed
+    flags:
+      - dv-man4
      
   - name: dv-man5
     type: manifest
@@ -126,6 +136,8 @@ jobs:
       - IN: dv-inc
       - TASK: managed
       - OUT: dv-image-xyzw
+    flags:
+      - s3
   - name: s4
     type: manifest
     steps:
@@ -133,12 +145,15 @@ jobs:
       - IN: image12345
       - TASK: managed
       - OUT: image12346
+    flags:
+      - s4
   - name: s5
     type: manifest
     steps:
       - IN: image123467324242
       - TASK: managed
-       
+    flags:
+      - s5
   
      # - OUT: image123467890
   - name: s6
@@ -147,6 +162,8 @@ jobs:
       - IN: xyz
       - TASK: managed
       - OUT: imagetest
+    flags:
+      - s6
       
       
   - name: dv-man-7
@@ -156,6 +173,8 @@ jobs:
       - IN: dv-image-testing_for_a_long_name
       - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
       - TASK: managed
+    flags:
+      - dv-man-7
         
   - name: dv-man-8
     type: manifest
@@ -164,10 +183,14 @@ jobs:
       - IN: dv-image-testing_for_a_long_name
       - IN: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
       - TASK: managed
+    flags:
+      - dv-man-8
       
   - name: invalid_input
     type: manifest
     steps:
       - IN: imagetest-invalid
       - TASK: managed    
+    flags:
+      - invalid_input
       
