@@ -17,6 +17,13 @@ jobs:
     steps:
       - IN: dv-image
       - TASK: managed
+  - name: dv-test
+    type: manifest
+    steps:
+      - IN: dv-man6
+      - IN: dv-man-8
+      - IN: dv-man-7
+      - TASK: managed
   - name: dv-inc
     type: manifest
     steps:
