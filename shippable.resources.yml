@@ -7,6 +7,8 @@ resources:
      # isPull: false
     seed:
       versionName: latest
+    flags:
+      - dv-image
  
   - name: dv-image2
     type: image
