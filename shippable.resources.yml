@@ -149,6 +149,8 @@ resources:
       #isPull: false
     seed:
       versionName: latest
+    flags:
+      - imagetest
  
  
   - name: imagetest-invalid
