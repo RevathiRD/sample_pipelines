@@ -109,6 +109,8 @@ resources:
       #isPull: false
     seed:
       versionName: latest
+    flags:
+      - image123
   - name: image1234
     type: image
     integration: docker integrtion1
