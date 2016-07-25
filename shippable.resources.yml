@@ -17,8 +17,7 @@ resources:
       sourceName: "revathird/sample_node"
     seed:
       versionName: latest
-    flags:
-      - dv-image2
+   
   - name: dv-opts
     type: dockerOptions
     version:
