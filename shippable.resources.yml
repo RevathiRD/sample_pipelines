@@ -41,6 +41,8 @@ resources:
      # isPull: false
     seed:
       versionName: latest    
+    flags: 
+      - dv-image-testing_for_a_long_name
 
   - name: dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
     type: image
@@ -50,6 +52,8 @@ resources:
      # isPull: false
     seed:
       versionName: latest    
+    flags:
+      - dv-image-testing_for_a_long_name_dv-image-testing_for_a_long_name_test_123
   
   - name: image1
     type: image
