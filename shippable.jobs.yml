@@ -136,7 +136,7 @@ jobs:
       - IN: image123
       - IN: dv-inc
       - TASK: managed
-      - OUT: dv-image-xyzw
+     # - OUT: dv-image-xyzw
     flags:
       - s3
   - name: s4
