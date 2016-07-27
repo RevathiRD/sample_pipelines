@@ -129,7 +129,7 @@ resources:
       sourceName: "revathird/sample_node"
       #isPull: false
     seed:
-      versionName: last
+      versionName: latest
     flags:
       - image123
   - name: image1234
