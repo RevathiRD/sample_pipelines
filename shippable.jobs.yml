@@ -148,14 +148,7 @@ jobs:
       - OUT: image12346
     flags:
       - s4
-  - name: s5
-    type: manifest
-    steps:
-      - IN: image123467324242
-      - TASK: managed
-    flags:
-      - s5
-  
+ 
      # - OUT: image123467890
   - name: s6
     type: manifest
