@@ -9,7 +9,7 @@ resources:
       versionName: latest
     flags:
       - dv-image
-  - name: env-test
+  - name: test-ecs
     type: cluster
     integration: ecsdeploy
     pointer:
