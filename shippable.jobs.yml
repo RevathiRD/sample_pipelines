@@ -202,7 +202,7 @@ jobs:
       - IN: image1
       - IN: dv-opts
       - IN: dv-params
-      - IN: box-scaler
+     # - IN: box-scaler
     #  - IN: infra-repo
       - TASK: managed
     flags:
