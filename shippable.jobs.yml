@@ -25,7 +25,7 @@ jobs:
     type: deploy
     steps:
       - IN: job-test
-      - IN: env-test
+      - IN: test-ecs
       - TASK: managed
    
   - name: dv-test
