@@ -21,8 +21,8 @@ jobs:
       - TASK: managed
     flags:
       - dv
-  - name: dv-ecsdeploy
-    type: manifest
+  - name: dv-ecsdeploy-1
+    type: deploy
     steps:
       - IN: job-test
       - IN: env-test
