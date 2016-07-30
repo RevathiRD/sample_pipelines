@@ -188,3 +188,13 @@ jobs:
     flags:
       - invalid_input
       
+  - name: job-test
+    type: manifest
+    steps:
+      #- GET: dv-image  
+      - IN: image1
+      - IN: dv-opts
+      - IN: dv-params
+      - TASK: managed
+    flags:
+      - s1-test-for-the-long-name-12346
