@@ -8,12 +8,23 @@ resources:
     seed:
       versionName: latest
  
-  - name: test-image-t
-    type: image
-    integration: docker integrtion
+  - name: env-test-1
+    type: cluster
+    integration: ecsdeploy
     pointer:
-      sourceName: "revathird/img"
-     # isPull: false
-    seed:
-      versionName: latest
-  
+      sourceName : "testCL" #name of the cluster we are deploying
+      region: "us-west-2"
+  - name: dv-opts-1
+    type: dockerOptions
+    version:
+      memory: 64
+      cpuShares: 256
+      portMappings:
+        - "80:80"
+   
+
+  - name: dv-params-1
+    type: params
+    version:
+      params:
+        MONGO_API_URL: "localhost:28017"
