@@ -195,6 +195,7 @@ jobs:
       - IN: image1
       - IN: dv-opts
       - IN: dv-params
+      - IN: box-scaler
       - TASK: managed
     flags:
       - s1-test-for-the-long-name-12346
