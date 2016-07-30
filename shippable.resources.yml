@@ -9,7 +9,12 @@ resources:
       versionName: latest
     flags:
       - dv-image
- 
+  - name: infra-repo
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: RevathiRD/sampleRub
+      branch: master
   - name: dv-image2
     type: image
     integration: docker integrtion
