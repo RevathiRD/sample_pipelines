@@ -9,14 +9,7 @@ resources:
       versionName: latest
     flags:
       - dv-image
-  - name: zoom-test
-    type: image
-    integration: docker integrtion
-    pointer:
-      sourceName: "revathird/sample_node"
-     # isPull: false
-    seed:
-      versionName: latest
+
   - name: test-ecs
     type: cluster
     integration: ecsdeploy
