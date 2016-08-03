@@ -14,6 +14,10 @@ jobs:
       - TASK: managed
     flags:
       - dv-man
+  - name: test-build
+    type: manifest
+    steps:
+      - IN: dv-image
   - name: dv
     type: manifest
     steps:
