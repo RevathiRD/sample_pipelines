@@ -76,9 +76,9 @@ resources:
     type: image
     integration: docker integrtion
     pointer:
-      sourceName: "revathird/sample_node"
+      sourceName: "shippabledocker/pipelinev2"
     seed:
-      versionName: latest
+      versionName: "deploy.1"
     flags:
       - image1
   - name: image2
