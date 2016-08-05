@@ -58,7 +58,7 @@ jobs:
       - dv-man1
       
      
-  - name: dv-man2
+  - name: dv-man-2
     type: manifest
     steps:
       #- GET: dv-image  
