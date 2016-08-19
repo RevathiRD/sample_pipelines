@@ -1,5 +1,5 @@
 jobs:
-  - name: dv-man
+  - name: dv-man-test
     type: manifest
     steps:
       - IN: dv-image
