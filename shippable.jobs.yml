@@ -18,13 +18,13 @@ jobs:
     type: manifest
     steps:
       - IN: dv-image
-  - name: dv
-    type: manifest
-    steps:
-      - IN: dv-image
-      - TASK: managed
-    flags:
-      - dv
+  # - name: dv
+  #   type: manifest
+  #   steps:
+  #     - IN: dv-image
+  #     - TASK: managed
+  #   flags:
+  #     - dv
   - name: dv-ecsdeploy-1
     type: deploy
     steps:
