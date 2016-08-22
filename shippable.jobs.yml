@@ -206,6 +206,7 @@ jobs:
       - IN: image1
       - IN: dv-opts
       - IN: dv-params
+      - IN: trigger-dv-man
      # - IN: box-scaler
     #  - IN: infra-repo
       - TASK: managed
